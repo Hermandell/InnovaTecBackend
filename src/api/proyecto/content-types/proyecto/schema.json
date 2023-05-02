@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "proyectos",
+  "info": {
+    "singularName": "proyecto",
+    "pluralName": "proyectos",
+    "displayName": "proyecto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tema": {
+      "type": "string"
+    },
+    "carrera": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "numero": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "descarga": {
+      "type": "string"
+    },
+    "alumnos": {
+      "type": "json"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
